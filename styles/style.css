@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  background: #24292e;
+  display: flex;
+  align-items: center;
+  padding: 15px 100px;
+}
+.header-logo {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+}
+.header-logo .fa-github {
+  display: inline-block;
+  color: white;
+}
+.header-search {
+  position: relative;
+}
+.header-search input {
+  background-color: hsla(0, 0%, 100%, 0.125);
+  width: 300px;
+  height: 35px;
+  padding: 7px;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+.header-search i {
+  position: absolute;
+  right: 25px;
+  top: 8px;
+  color: #fff;
+}
+.header-links a {
+  color: #fff;
+  margin-right: 16px;
+  font-size: 14px;
+}
+.header-right {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.header-right a {
+  color: #fff;
+  margin-left: 16px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+}
+.main-about img {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+.main-about-title {
+  margin-top: 30px;
+}
+.main-about-title h3 {
+  padding-bottom: 10px;
+}
+.main-about-title p {
+  padding-bottom: 30px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.main-about-title button {
+  width: 100%;
+  height: 30px;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+  border-radius: 5px;
+}
+.main-about-dsc {
+  margin-top: 16px;
+}
+.main-about-dsc hr {
+  margin: 10px 0;
+}
+.main-projects {
+  width: 100%;
+  margin: 20px 40px;
+}
+.main-projects-links {
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects-links a {
+  color: #586069;
+}
+.main-projects .section {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.main-projects .section a {
+  font-size: 16px;
+  color: #586069;
+}
+.main-projects .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-projects-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+}
+.main-projects-bar .up {
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects-bar .up a {
+  color: #586069;
+  font-size: 21px;
+}
+.main-projects-bar .down {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.main-projects-bar .down span {
+  background-color: #56d37c;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+}/*# sourceMappingURL=style.css.map */
